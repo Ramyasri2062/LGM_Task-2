@@ -1,0 +1,52 @@
+/* Navbar styles */
+.navbar {
+  background-color: #b65c5c;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+/* Card grid styles */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #91be1f;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-email {
+  color: #7b0909;
+}
+
+/* Loader styles */
+.loader {
+  border: 16px groove #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 20%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
